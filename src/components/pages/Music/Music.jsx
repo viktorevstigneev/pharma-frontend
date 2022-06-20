@@ -6,7 +6,7 @@ import _ from 'lodash';
 
 import Header from '../../common/Header';
 import Footer from '../../common/Footer';
-import lupa from '../../../img/vector.png';
+// import lupa from '../../../img/vector.png';
 
 import './style.css';
 

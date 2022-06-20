@@ -5,7 +5,7 @@ import axios from 'axios';
 
 import Header from '../../common/Header';
 import Footer from '../../common/Footer';
-import lupa from '../../../img/vector.png';
+// import lupa from '../../../img/vector.png';
 import './style.css';
 
 import { API_URL } from '../../../constants';
@@ -60,7 +60,7 @@ const Tests = ({ loadTeamData, team, match }) => {
 			<div className="test">
 				<h1 className="test__title">Каталог продукции</h1>
 				<div className="info__con">
-					<img className="search__icon" src={lupa} alt="" />
+					{/* <img className="search__icon" src={lupa} alt="" /> */}
 					<input className="info__search" type="text" placeholder="Поиск препарата" onChange={handleSearhChange} />
 				</div>
 				<h3 className="test__title">Сортировать</h3>
