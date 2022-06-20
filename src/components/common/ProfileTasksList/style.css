@@ -1,0 +1,20 @@
+.task__list {
+	height: 200px;
+
+	overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #747474;
+	border-radius: 9em;
+	box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #636363;
+}

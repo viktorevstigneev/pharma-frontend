@@ -1,0 +1,33 @@
+.test {
+	margin: 0 auto;
+	margin-top: 10%;
+	width: 90%;
+	/* display: flex; */
+	color: aliceblue;
+	padding-bottom: 40px;
+}
+
+.tag-container{
+    display: none;
+}
+
+.react-quiz-container{
+	border: 1px solid rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.479);
+	padding: 60px;
+}
+
+.test__title{
+	text-align: center;
+}
+
+.person__price{
+	padding: 0;
+	color: rgb(255, 255, 255);
+	background: rgb(55, 55, 157);
+	margin-top: 80px;
+}
+
+.person{
+	margin-top: 50px;
+}

@@ -1,0 +1,237 @@
+.edit-team {
+	width: 60%;
+	border-radius: 10px;
+	margin: 5% auto;
+	padding: 10px;
+
+	background: #1d1d1d;
+	color: seashell;
+}
+
+.edit-team__container {
+	display: flex;
+	margin: 0 auto;
+}
+
+.edit-team__logo {
+	position: relative;
+	display: block;
+	height: 180px;
+	border-radius: 10px;
+	margin: 0 auto;
+
+	object-fit: cover;
+	cursor: pointer;
+}
+
+.edit-team__label {
+	position: relative;
+	display: block;
+}
+.edit-team__label::before {
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+
+	text-indent: 0;
+	font-size: 36px;
+	line-height: 1;
+	opacity: 0;
+
+	content: '\1F4C2';
+	cursor: pointer;
+	transition: all 0.6s ease 0s;
+}
+
+.edit-team__label:hover::before {
+	opacity: 1;
+}
+
+.edit-team__input--font-size {
+	font-size: 28px !important;
+}
+
+.edit-team__input--type-file {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.edit-team__input {
+	display: block;
+	border: none;
+
+	color: antiquewhite;
+	background: transparent;
+
+	font-size: 16px;
+}
+
+.edit-team__input::placeholder {
+	color: #a0a09d;
+}
+
+.edit-team__input:focus {
+	outline: none !important;
+	border: none;
+}
+
+.edit-team__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	border-bottom: 2px solid #78755c;
+	padding-bottom: 10px;
+}
+.edit-team__text {
+	width: 80%;
+	border: 2px solid #78755c;
+	border-radius: 20px;
+	padding: 5px;
+	margin-right: 5px;
+}
+.edit-team__caption {
+	width: 40%;
+}
+.edit-team__content {
+	width: 100%;
+	margin-left: 10px;
+}
+
+.edit-team__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.edit-team__member {
+	position: relative;
+	width: 100%;
+	max-width: 200px;
+	margin-top: 15px;
+	margin-right: 25px;
+	padding: 5px;
+}
+
+.edit-team__member-image {
+	width: 200px;
+	height: 200px;
+
+	object-fit: cover;
+	transition: 0.5s;
+}
+
+.edit-team__member-description {
+	border: 1px solid #78755c;
+	padding: 20px 0;
+
+	color: #d1cec2;
+
+	text-align: center;
+}
+
+.edit-team__member-name {
+	padding: 0;
+	margin: 0;
+
+	color: #d1cec2;
+
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.edit-team__member-delete-button {
+	position: absolute;
+	border: none;
+	right: 0;
+
+	background: transparent;
+	color: white;
+
+	font-size: 24px;
+
+	cursor: pointer;
+}
+
+.edit-team__member-item {
+	width: 100%;
+	height: 290px;
+	max-width: 200px;
+	border: 1px solid #78755c;
+	margin: 5px;
+	margin-top: 20px;
+}
+
+.edit-team__member-button {
+	width: 100%;
+	height: 290px;
+	max-width: 200px;
+	border: none;
+
+	background: transparent;
+	color: #ffdd55;
+
+	font-size: 64px;
+	font-weight: 900;
+	text-align: center;
+
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.edit-team__member-button:hover {
+	background: #78755c;
+	border: 1px solid #a0a09d;
+}
+
+.edit-team__button {
+	display: block;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+
+	color: #1d1d1d;
+	background: #ffdd55;
+
+	font-size: 17px;
+	font-weight: 700;
+
+	cursor: pointer;
+	transition: 0.5s;
+}
+.edit-team__button:hover {
+	background: #ffdd55e8;
+	color: #fff;
+}
+
+.edit-team__button--save {
+	width: 20%;
+}
+
+.edit-team__link {
+	display: block;
+	width: 95%;
+	padding: 5px;
+
+	color: #000000;
+	background: #ffdd55;
+
+	text-align: center;
+
+	transition: 0.5s;
+}
+
+.edit-team__link:hover {
+	background: #ffdd55e8;
+	color: #fff;
+}

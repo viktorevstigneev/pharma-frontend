@@ -1,0 +1,118 @@
+.admin__person {
+	margin-top: 2%;
+
+	margin: 0 auto;
+	/* border: 1px solid rgb(255, 255, 255); */
+
+	/* display: flex; */
+
+	width: 30%;
+	padding: 20px;
+	padding-bottom: 10%;
+}
+.admin__title {
+	margin-top: 10%;
+	text-align: center;
+
+	color: aliceblue;
+}
+.admin__avatar {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	transition: 0.5s;
+	border: 1px solid rgb(255, 250, 250);
+}
+
+.admin__label {
+	position: relative;
+	display: block;
+	cursor: context-menu;
+	width: 100%;
+	height: 400px;
+}
+
+.admin__label:hover .admin__avatar {
+	filter: grayscale(1);
+}
+
+.admin__label:hover .admin__icon {
+	color: rgb(39, 39, 39);
+}
+
+.admin__input {
+	height: 1px;
+	width: 1px;
+	margin-bottom: 10px;
+}
+
+.admin__icon {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: rgb(0, 0, 0);
+	font-size: 82px;
+	/* background: ; */
+	margin: 0;
+	transition: 0.5s;
+}
+
+.admin__text-input {
+	width: 100%;
+	height: 40px;
+	color: rgb(0, 0, 0);
+	border: 1px solid rgb(255, 255, 255);
+	margin-bottom: 10px;
+	/* margin-left: 30px; */
+	padding: 5px;
+	padding-left: 0;
+	background: white;
+}
+.admin__text-input::placeholder {
+	color: rgb(0, 0, 0);
+}
+
+.admin__textarea {
+	display: block;
+	resize: none;
+	width: 100%;
+	height: 300px;
+	/* margin-left: 30px; */
+	background: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border: none;
+}
+
+.admin__textarea::placeholder {
+	color: rgb(0, 0, 0);
+}
+
+.admin__button {
+	margin-top: 20px;
+	padding: 10px;
+	cursor: pointer;
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+	width: 100%;
+}
+
+.admin__btn {
+	padding: 10px;
+	cursor: pointer;
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+	/* width: 0%; */
+}
+.admin__btn:hover {
+	background: rgba(255, 255, 255, 0.527);
+}
+
+.admin__file {
+	color: white;
+}
+
+.admin__button:hover {
+	background: rgba(255, 255, 255, 0.527);
+}

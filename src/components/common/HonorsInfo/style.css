@@ -1,0 +1,44 @@
+.data__wrapper {
+	border: 1px solid #4d4834;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+
+.data__member-name {
+	text-align: center;
+}
+
+.data__block {
+	margin-top: 5px;
+	padding: 5px;
+
+	background: #1d1d1d;
+}
+
+.data__block > ul {
+	height: 300px;
+	overflow-y: auto;
+}
+
+.data__title {
+	border-top: 1px solid #4d4834;
+	padding-top: 10px;
+
+	text-align: center;
+}
+
+.data__text {
+	margin: 0;
+}
+
+.data__image {
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	margin-right: 20px;
+}
+
+.data__item{
+	display: flex;
+	align-items: center;
+}

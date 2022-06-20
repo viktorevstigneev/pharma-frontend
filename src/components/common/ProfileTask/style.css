@@ -1,0 +1,42 @@
+.task__button {
+	display: block;
+	border: none;
+	border-radius: 30px;
+	margin-bottom: 15px;
+
+	color: #423f3f;
+	background: #ffdd55;
+
+	font-size: 17px;
+	font-weight: 700;
+
+	cursor: pointer;
+  outline: none;
+	transition: 0.5s;
+}
+
+.task__button:hover {
+	background: #ffdd55e8;
+	color: #fff;
+}
+
+.task__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.task {
+	border-bottom: 1px solid #766d4f;
+	border-radius: 5px;
+  padding: 5px;
+}
+.task:first-child {
+	border-top: 1px solid #766d4f;
+}
+.task__progress{
+	border-top: 1px solid #b1a270 ;
+	padding-top: 10px;
+
+	color: #207a20;
+}

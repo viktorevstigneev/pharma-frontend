@@ -1,0 +1,70 @@
+.music__title {
+	margin-top: 10%;
+	text-align: center;
+	color: aliceblue;
+}
+
+.music_container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.music__input {
+	border: 1px solid #ffffff;
+	width: 50%;
+	padding: 10px;
+	background: white;
+	margin: 5px;
+	margin-left: 0;
+	color: black;
+}
+
+.music__input::placeholder {
+	color: black;
+}
+
+.music__message{
+
+	border: 1px solid #ffffff;
+	width: 50%;
+	padding: 10px;
+	background: white;
+	margin: 5px;
+	margin-left: 0;
+	color: black;
+    resize: none;
+    height: 120px;
+}
+
+.music__message::placeholder {
+	color: black;
+}
+
+
+.music__label {
+	display: block;
+	margin-top: 10px;
+	position: relative;
+}
+
+.music__label::after {
+	content: '*';
+	margin-left: 5px;
+	font-size: 25px;
+	color: red;
+}
+.music__btn {
+	display: block;
+	background: rgb(0, 94, 255);
+	border: none;
+	color: #ffffff;
+	padding: 10px 0;
+	width: 52%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.music__btn:hover{
+ color: black;
+ background: white;
+}

@@ -1,0 +1,73 @@
+.sign-in {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 700px;
+	border-radius: 10px;
+	margin: 10% auto;
+
+	text-align: center;
+}
+
+.sign-in__input {
+	display: block;
+	width: 100%;
+	border: 0;
+	border-radius: 20px;
+	margin: 20px 0 20px 0;
+	padding: 20px 0 20px 10px;
+
+	background: #0312e869;
+	color: #ffffff;
+
+	font-family: 'Roboto', sans-serif;
+}
+
+.sign-in__input::placeholder {
+	margin-right: 10px;
+
+	color: #ffffff;
+}
+
+.sign-in__title {
+	color: #ffffff;
+
+	text-transform: uppercase;
+}
+
+.sign-in__form {
+	width: 70%;
+}
+
+.sign-in__button {
+	display: block;
+	width: 100%;
+	border: none;
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-bottom: 60px;
+	padding: 20px;
+	padding-left: 15px;
+
+	background: #151d91c0;
+	color: #fff;
+
+	font-size: 17px;
+	font-weight: 700;
+
+	cursor: pointer;
+	transition: 0.5s;
+}
+.sign-in__button:hover {
+	background: #202785;
+	color: rgb(252, 252, 252);
+}
+
+.auth {
+	color: white;
+}
+
+.auth:hover {
+	text-decoration: underline;
+}

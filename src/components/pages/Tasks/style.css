@@ -1,0 +1,62 @@
+.man {
+	margin: 0 auto;
+
+	margin-top: 10%;
+	/* padding-bottom: 10%; */
+	display: flex;
+	width: 70%;
+}
+.man__avatar {
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+}
+
+.man__fullname,
+.man__description {
+	margin-left: 40px;
+	font-size: 20px;
+	color: white;
+}
+
+.man__fullname {
+	margin-top: 0;
+	color: rgb(255, 132, 132);
+}
+
+.man__edit {
+	border: 1px solid white;
+	color: white;
+	cursor: pointer;
+	transition: 0.5s;
+	height: 15px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.man__edit:hover {
+	background: white;
+	color: black;
+}
+
+.corzina {
+	cursor: pointer;
+	border: 1px solid white;
+	width: 200px;
+	margin: 0 auto;
+	margin-bottom: 10%;
+	padding: 20px;
+	transition: 0.5s;
+	margin-left: 30px;
+}
+
+.corzina:hover{
+	background: white;
+	color: black;
+}
+
+.man__add{
+	margin-top: 30px;
+	padding: 20px;
+}

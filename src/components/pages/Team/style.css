@@ -1,0 +1,168 @@
+.container {
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+.info__title {
+	margin-top: 10%;
+	text-align: right;
+	color: aliceblue;
+	font-size: 68px;
+}
+
+.info__text{
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.info__caption {
+	margin-top: 140px;
+	text-align: center;
+	color: aliceblue;
+	font-size: 48px;
+}
+
+.info__famous {
+	display: flex;
+	height: 400px;
+	overflow-x: auto;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+.info__famous::-webkit-scrollbar {
+	height: 1px;
+	display: none;
+}
+
+.info__card {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+}
+
+.a:hover .info__card {
+	filter: contrast(0.7);
+}
+.person:hover {
+	filter: contrast(0.7);
+}
+
+.card__img {
+	display: block;
+	width: 300px;
+	height: 300px;
+	/* background-size: 100px !important; */
+	object-fit: cover;
+}
+
+.card__name {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	background: #1f3cc0d1;
+	margin: 0;
+	font-size: 25px;
+	/* padding: 15px; */
+	height: 50px;
+	padding-top: 10px;
+}
+.card__price {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	background: #1f82c0d1;
+	margin: 0;
+	font-size: 25px;
+	/* padding: 15px; */
+	height: 50px;
+	padding-top: 10px;
+	display: block;
+}
+
+.info__people {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+	color: aliceblue;
+}
+
+.person {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	padding: 5px;
+	margin-bottom: 50px;
+}
+
+.person__img {
+	display: block;
+	width: 300px;
+	height: 300px;
+	background-size: cover !important;
+	object-fit: cover;
+}
+
+.person__name {
+	text-align: center;
+	display: block;
+	color: rgb(255, 255, 255);
+	background: #424ef7;
+	margin: 0;
+	padding: 15px;
+}
+
+/* .card__price{
+	text-align: center;
+	display: block;
+	color: white;
+} */
+
+.info__con {
+	display: flex;
+	align-items: center;
+	padding: 40px;
+	padding-left: 0;
+}
+
+.search__icon {
+	width: 30px;
+	height: 30px;
+	/* margin-right: 5px; */
+	border: 1px solid rgb(255, 255, 255);
+	padding: 4px;
+	padding-right: 0;
+	border-right: none;
+}
+.info__search {
+	display: block;
+	width: 100%;
+	/* margin-top: 40px;
+	margin-bottom: 40px; */
+	padding: 10px;
+	color: rgb(255, 255, 255);
+	border: 1px solid rgb(255, 255, 255);
+
+	border-left: none;
+	outline: none;
+}
+.info__search::placeholder {
+	color: rgb(255, 255, 255);
+}
+
+.delete__person {
+	/* z-index: 1000000; */
+	color: rgb(255, 104, 104);
+	font-size: 45px;
+	position: absolute;
+	right: 10px;
+	top: 0;
+}
+
+.info__image{
+	display: block;
+	width:70%;
+	/* height: 60%; */
+	margin: 0 auto;
+}

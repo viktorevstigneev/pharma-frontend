@@ -1,0 +1,55 @@
+.profile-editor {
+	display: flex;
+	width: 60%;
+	border-radius: 10px;
+	margin: 5% auto 0;
+	padding: 20px;
+	padding-bottom: 80px;
+
+	background: #1d1d1d;
+	color: #e7e4e2;
+}
+
+.profile-editor__label {
+	display: block;
+}
+
+.profile-editor__label {
+	display: block;
+}
+
+.profile-editor__input {
+	margin-bottom: 10px;
+}
+
+.profile-editor__input--type-file {
+	height: 1px;
+	width: 1px;
+}
+
+.profile-editor__avatar {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.profile-editor__buttton {
+	border: none;
+	border-radius: 20px;
+	margin: 15px auto;
+	padding: 10px;
+
+	color: #1d1d1d;
+	background: #ffdd55;
+
+	cursor: pointer;
+	transition: 0.2s;
+}
+.profile-editor__buttton:hover {
+	background: #ffdd55e8;
+	color: #fff;
+}
+
+.profile-editor__form {
+	margin-left: 5%;
+}
