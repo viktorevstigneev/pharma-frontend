@@ -52,6 +52,7 @@
 		"start": "webpack-dev-server --mode development --open --hot",
 		"build": "webpack --mode production",
 		"lint": "stylelint src/**/*.css && eslint ./src//*.{js,jsx}",
-		"fix": "stylelint src/**/*.css --fix && eslint ./src//*.{js,jsx} --fix"
+		"fix": "stylelint src/**/*.css --fix && eslint ./src//*.{js,jsx} --fix",
+		"heroku-postbuild": "webpack -p"
 	}
 }
